@@ -2,7 +2,7 @@ services:
   # A Docker web service
   - type: web
     name: backend-python-helder
-    runtime: python
+    runtime: python3
     plan: free
     autoDeploy: false
     buildCommand: pip3 install -r requirements.txt

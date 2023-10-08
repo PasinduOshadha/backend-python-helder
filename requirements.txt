@@ -15,7 +15,6 @@ coloredlogs==15.0.1
 dataclasses-json==0.5.12
 exceptiongroup==1.1.2
 fastapi==0.100.0
-filelock==3.12.4
 flatbuffers==23.5.26
 frozenlist==1.4.0
 fsspec==2023.9.2
