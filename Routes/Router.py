@@ -51,7 +51,7 @@ class AccidentLocationModdel(BaseModel):
 
 class NearestLocationModdel(BaseModel):
     accident: AccidentLocationModdel
-    ambulances: list[AmbulanceLocationsModdel]
+    ambulances: List[AmbulanceLocationsModdel]
 
 
 router = APIRouter()
